@@ -1,6 +1,0 @@
-cannot identify image file '/media/ivan/5a98638f-057c-4499-87fa-d0d7b41f24b4/home/ivan/pan18-author-profiling-training-2018-02-27/es/photo//63f7ea325cae0b54d2ce04cc9ea3185a/63f7ea325cae0b54d2ce04cc9ea3185a.8.jpeg'
-cannot identify image file '/media/ivan/5a98638f-057c-4499-87fa-d0d7b41f24b4/home/ivan/pan18-author-profiling-training-2018-02-27/es/photo//63f7ea325cae0b54d2ce04cc9ea3185a/63f7ea325cae0b54d2ce04cc9ea3185a.5.jpeg'
-cannot identify image file '/media/ivan/5a98638f-057c-4499-87fa-d0d7b41f24b4/home/ivan/pan18-author-profiling-training-2018-02-27/es/photo//63f7ea325cae0b54d2ce04cc9ea3185a/63f7ea325cae0b54d2ce04cc9ea3185a.6.jpeg'
-cannot identify image file '/media/ivan/5a98638f-057c-4499-87fa-d0d7b41f24b4/home/ivan/pan18-author-profiling-training-2018-02-27/es/photo//63f7ea325cae0b54d2ce04cc9ea3185a/63f7ea325cae0b54d2ce04cc9ea3185a.7.jpeg'
-cannot identify image file '/media/ivan/5a98638f-057c-4499-87fa-d0d7b41f24b4/home/ivan/pan18-author-profiling-training-2018-02-27/es/photo//cb982b89796d6bea9ee41830b25f36ed/cb982b89796d6bea9ee41830b25f36ed.8.jpeg'
-cannot identify image file '/media/ivan/5a98638f-057c-4499-87fa-d0d7b41f24b4/home/ivan/pan18-author-profiling-training-2018-02-27/es/photo//64bd6a02d9a5ef3a2a7e7a49774a9a52/64bd6a02d9a5ef3a2a7e7a49774a9a52.0.jpeg'
