@@ -1,0 +1,40 @@
+73.50015807151794 seconds to read csv's and create all dataframes
+['en']
+Shape of X dataframe: (3000, 1000)
+Shape of y dataframe: 3000
+Best parameter for classifier {'C': 1}
+26.646217823028564 seconds to train the SVM classifier
+['es']
+Shape of X dataframe: (3000, 1000)
+Shape of y dataframe: 3000
+Best parameter for classifier {'C': 1}
+27.93554377555847 seconds to train the SVM classifier
+['en', 'es']
+Shape of X dataframe: (6000, 1000)
+Shape of y dataframe: 6000
+Best parameter for classifier {'C': 1}
+57.028531074523926 seconds to train the SVM classifier
+['ar']
+Shape of X dataframe: (1500, 1000)
+Shape of y dataframe: 1500
+Best parameter for classifier {'C': 10}
+14.189740419387817 seconds to train the SVM classifier
+['en', 'ar']
+Shape of X dataframe: (4500, 1000)
+Shape of y dataframe: 4500
+Best parameter for classifier {'C': 10}
+45.33000922203064 seconds to train the SVM classifier
+['es', 'ar']
+Shape of X dataframe: (4500, 1000)
+Shape of y dataframe: 4500
+Best parameter for classifier {'C': 1}
+43.733296632766724 seconds to train the SVM classifier
+['en', 'es', 'ar']
+Shape of X dataframe: (7500, 1000)
+Shape of y dataframe: 7500
+Best parameter for classifier {'C': 1}
+71.63452100753784 seconds to train the SVM classifier
+
+real	6m0.973s
+user	6m9.380s
+sys	0m27.641s
