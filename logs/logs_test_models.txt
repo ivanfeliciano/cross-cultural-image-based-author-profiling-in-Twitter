@@ -1,0 +1,883 @@
+53.27982020378113 seconds to read csv's and create all dataframes
+Using trained model ['en', 'es']
+Testing using ['en'] languages
+Shape of X dataframe: (1900, 1000)
+Shape of y dataframe: 1900
+Matrix of confusion
+[[648 302]
+ [272 678]]
+              precision    recall  f1-score   support
+
+      female       0.70      0.68      0.69       950
+        male       0.69      0.71      0.70       950
+
+   micro avg       0.70      0.70      0.70      1900
+   macro avg       0.70      0.70      0.70      1900
+weighted avg       0.70      0.70      0.70      1900
+
+Accuracy 0.6978947368421052
+0.027161598205566406 seconds to test the SVM classifier
+Using trained model ['ar']
+Testing using ['en'] languages
+Shape of X dataframe: (1900, 1000)
+Shape of y dataframe: 1900
+Matrix of confusion
+[[576 374]
+ [331 619]]
+              precision    recall  f1-score   support
+
+      female       0.64      0.61      0.62       950
+        male       0.62      0.65      0.64       950
+
+   micro avg       0.63      0.63      0.63      1900
+   macro avg       0.63      0.63      0.63      1900
+weighted avg       0.63      0.63      0.63      1900
+
+Accuracy 0.6289473684210526
+0.04470944404602051 seconds to test the SVM classifier
+Using trained model ['es']
+Testing using ['en'] languages
+Shape of X dataframe: (1900, 1000)
+Shape of y dataframe: 1900
+Matrix of confusion
+[[665 285]
+ [333 617]]
+              precision    recall  f1-score   support
+
+      female       0.67      0.70      0.68       950
+        male       0.68      0.65      0.67       950
+
+   micro avg       0.67      0.67      0.67      1900
+   macro avg       0.68      0.67      0.67      1900
+weighted avg       0.68      0.67      0.67      1900
+
+Accuracy 0.6747368421052632
+0.06252050399780273 seconds to test the SVM classifier
+Using trained model ['es', 'ar']
+Testing using ['en'] languages
+Shape of X dataframe: (1900, 1000)
+Shape of y dataframe: 1900
+Matrix of confusion
+[[663 287]
+ [328 622]]
+              precision    recall  f1-score   support
+
+      female       0.67      0.70      0.68       950
+        male       0.68      0.65      0.67       950
+
+   micro avg       0.68      0.68      0.68      1900
+   macro avg       0.68      0.68      0.68      1900
+weighted avg       0.68      0.68      0.68      1900
+
+Accuracy 0.6763157894736842
+0.08096575736999512 seconds to test the SVM classifier
+Using trained model ['en', 'ar']
+Testing using ['en'] languages
+Shape of X dataframe: (1900, 1000)
+Shape of y dataframe: 1900
+Matrix of confusion
+[[628 322]
+ [277 673]]
+              precision    recall  f1-score   support
+
+      female       0.69      0.66      0.68       950
+        male       0.68      0.71      0.69       950
+
+   micro avg       0.68      0.68      0.68      1900
+   macro avg       0.69      0.68      0.68      1900
+weighted avg       0.69      0.68      0.68      1900
+
+Accuracy 0.6847368421052632
+0.09868288040161133 seconds to test the SVM classifier
+Using trained model ['en']
+Testing using ['en'] languages
+Shape of X dataframe: (1900, 1000)
+Shape of y dataframe: 1900
+Matrix of confusion
+[[655 295]
+ [277 673]]
+              precision    recall  f1-score   support
+
+      female       0.70      0.69      0.70       950
+        male       0.70      0.71      0.70       950
+
+   micro avg       0.70      0.70      0.70      1900
+   macro avg       0.70      0.70      0.70      1900
+weighted avg       0.70      0.70      0.70      1900
+
+Accuracy 0.6989473684210527
+0.11617469787597656 seconds to test the SVM classifier
+Using trained model ['en', 'es', 'ar']
+Testing using ['en'] languages
+Shape of X dataframe: (1900, 1000)
+Shape of y dataframe: 1900
+Matrix of confusion
+[[653 297]
+ [273 677]]
+              precision    recall  f1-score   support
+
+      female       0.71      0.69      0.70       950
+        male       0.70      0.71      0.70       950
+
+   micro avg       0.70      0.70      0.70      1900
+   macro avg       0.70      0.70      0.70      1900
+weighted avg       0.70      0.70      0.70      1900
+
+Accuracy 0.7
+0.13388490676879883 seconds to test the SVM classifier
+Using trained model ['en', 'es']
+Testing using ['es'] languages
+Shape of X dataframe: (2200, 1000)
+Shape of y dataframe: 2200
+Matrix of confusion
+[[710 390]
+ [325 775]]
+              precision    recall  f1-score   support
+
+      female       0.69      0.65      0.67      1100
+        male       0.67      0.70      0.68      1100
+
+   micro avg       0.68      0.68      0.68      2200
+   macro avg       0.68      0.68      0.67      2200
+weighted avg       0.68      0.68      0.67      2200
+
+Accuracy 0.675
+0.02019333839416504 seconds to test the SVM classifier
+Using trained model ['ar']
+Testing using ['es'] languages
+Shape of X dataframe: (2200, 1000)
+Shape of y dataframe: 2200
+Matrix of confusion
+[[591 509]
+ [316 784]]
+              precision    recall  f1-score   support
+
+      female       0.65      0.54      0.59      1100
+        male       0.61      0.71      0.66      1100
+
+   micro avg       0.62      0.62      0.62      2200
+   macro avg       0.63      0.62      0.62      2200
+weighted avg       0.63      0.62      0.62      2200
+
+Accuracy 0.625
+0.03998064994812012 seconds to test the SVM classifier
+Using trained model ['es']
+Testing using ['es'] languages
+Shape of X dataframe: (2200, 1000)
+Shape of y dataframe: 2200
+Matrix of confusion
+[[728 372]
+ [345 755]]
+              precision    recall  f1-score   support
+
+      female       0.68      0.66      0.67      1100
+        male       0.67      0.69      0.68      1100
+
+   micro avg       0.67      0.67      0.67      2200
+   macro avg       0.67      0.67      0.67      2200
+weighted avg       0.67      0.67      0.67      2200
+
+Accuracy 0.6740909090909091
+0.0600430965423584 seconds to test the SVM classifier
+Using trained model ['es', 'ar']
+Testing using ['es'] languages
+Shape of X dataframe: (2200, 1000)
+Shape of y dataframe: 2200
+Matrix of confusion
+[[709 391]
+ [344 756]]
+              precision    recall  f1-score   support
+
+      female       0.67      0.64      0.66      1100
+        male       0.66      0.69      0.67      1100
+
+   micro avg       0.67      0.67      0.67      2200
+   macro avg       0.67      0.67      0.67      2200
+weighted avg       0.67      0.67      0.67      2200
+
+Accuracy 0.6659090909090909
+0.08032464981079102 seconds to test the SVM classifier
+Using trained model ['en', 'ar']
+Testing using ['es'] languages
+Shape of X dataframe: (2200, 1000)
+Shape of y dataframe: 2200
+Matrix of confusion
+[[687 413]
+ [338 762]]
+              precision    recall  f1-score   support
+
+      female       0.67      0.62      0.65      1100
+        male       0.65      0.69      0.67      1100
+
+   micro avg       0.66      0.66      0.66      2200
+   macro avg       0.66      0.66      0.66      2200
+weighted avg       0.66      0.66      0.66      2200
+
+Accuracy 0.6586363636363637
+0.10042309761047363 seconds to test the SVM classifier
+Using trained model ['en']
+Testing using ['es'] languages
+Shape of X dataframe: (2200, 1000)
+Shape of y dataframe: 2200
+Matrix of confusion
+[[724 376]
+ [357 743]]
+              precision    recall  f1-score   support
+
+      female       0.67      0.66      0.66      1100
+        male       0.66      0.68      0.67      1100
+
+   micro avg       0.67      0.67      0.67      2200
+   macro avg       0.67      0.67      0.67      2200
+weighted avg       0.67      0.67      0.67      2200
+
+Accuracy 0.6668181818181819
+0.1207275390625 seconds to test the SVM classifier
+Using trained model ['en', 'es', 'ar']
+Testing using ['es'] languages
+Shape of X dataframe: (2200, 1000)
+Shape of y dataframe: 2200
+Matrix of confusion
+[[706 394]
+ [319 781]]
+              precision    recall  f1-score   support
+
+      female       0.69      0.64      0.66      1100
+        male       0.66      0.71      0.69      1100
+
+   micro avg       0.68      0.68      0.68      2200
+   macro avg       0.68      0.68      0.68      2200
+weighted avg       0.68      0.68      0.68      2200
+
+Accuracy 0.6759090909090909
+0.14193248748779297 seconds to test the SVM classifier
+Using trained model ['en', 'es']
+Testing using ['en', 'es'] languages
+Shape of X dataframe: (4100, 1000)
+Shape of y dataframe: 4100
+Matrix of confusion
+[[1358  692]
+ [ 597 1453]]
+              precision    recall  f1-score   support
+
+      female       0.69      0.66      0.68      2050
+        male       0.68      0.71      0.69      2050
+
+   micro avg       0.69      0.69      0.69      4100
+   macro avg       0.69      0.69      0.69      4100
+weighted avg       0.69      0.69      0.69      4100
+
+Accuracy 0.685609756097561
+0.03732776641845703 seconds to test the SVM classifier
+Using trained model ['ar']
+Testing using ['en', 'es'] languages
+Shape of X dataframe: (4100, 1000)
+Shape of y dataframe: 4100
+Matrix of confusion
+[[1167  883]
+ [ 647 1403]]
+              precision    recall  f1-score   support
+
+      female       0.64      0.57      0.60      2050
+        male       0.61      0.68      0.65      2050
+
+   micro avg       0.63      0.63      0.63      4100
+   macro avg       0.63      0.63      0.63      4100
+weighted avg       0.63      0.63      0.63      4100
+
+Accuracy 0.6268292682926829
+0.07191133499145508 seconds to test the SVM classifier
+Using trained model ['es']
+Testing using ['en', 'es'] languages
+Shape of X dataframe: (4100, 1000)
+Shape of y dataframe: 4100
+Matrix of confusion
+[[1393  657]
+ [ 678 1372]]
+              precision    recall  f1-score   support
+
+      female       0.67      0.68      0.68      2050
+        male       0.68      0.67      0.67      2050
+
+   micro avg       0.67      0.67      0.67      4100
+   macro avg       0.67      0.67      0.67      4100
+weighted avg       0.67      0.67      0.67      4100
+
+Accuracy 0.6743902439024391
+0.10842370986938477 seconds to test the SVM classifier
+Using trained model ['es', 'ar']
+Testing using ['en', 'es'] languages
+Shape of X dataframe: (4100, 1000)
+Shape of y dataframe: 4100
+Matrix of confusion
+[[1372  678]
+ [ 672 1378]]
+              precision    recall  f1-score   support
+
+      female       0.67      0.67      0.67      2050
+        male       0.67      0.67      0.67      2050
+
+   micro avg       0.67      0.67      0.67      4100
+   macro avg       0.67      0.67      0.67      4100
+weighted avg       0.67      0.67      0.67      4100
+
+Accuracy 0.6707317073170732
+0.15985107421875 seconds to test the SVM classifier
+Using trained model ['en', 'ar']
+Testing using ['en', 'es'] languages
+Shape of X dataframe: (4100, 1000)
+Shape of y dataframe: 4100
+Matrix of confusion
+[[1315  735]
+ [ 615 1435]]
+              precision    recall  f1-score   support
+
+      female       0.68      0.64      0.66      2050
+        male       0.66      0.70      0.68      2050
+
+   micro avg       0.67      0.67      0.67      4100
+   macro avg       0.67      0.67      0.67      4100
+weighted avg       0.67      0.67      0.67      4100
+
+Accuracy 0.6707317073170732
+0.23765969276428223 seconds to test the SVM classifier
+Using trained model ['en']
+Testing using ['en', 'es'] languages
+Shape of X dataframe: (4100, 1000)
+Shape of y dataframe: 4100
+Matrix of confusion
+[[1379  671]
+ [ 634 1416]]
+              precision    recall  f1-score   support
+
+      female       0.69      0.67      0.68      2050
+        male       0.68      0.69      0.68      2050
+
+   micro avg       0.68      0.68      0.68      4100
+   macro avg       0.68      0.68      0.68      4100
+weighted avg       0.68      0.68      0.68      4100
+
+Accuracy 0.6817073170731708
+0.3078441619873047 seconds to test the SVM classifier
+Using trained model ['en', 'es', 'ar']
+Testing using ['en', 'es'] languages
+Shape of X dataframe: (4100, 1000)
+Shape of y dataframe: 4100
+Matrix of confusion
+[[1359  691]
+ [ 592 1458]]
+              precision    recall  f1-score   support
+
+      female       0.70      0.66      0.68      2050
+        male       0.68      0.71      0.69      2050
+
+   micro avg       0.69      0.69      0.69      4100
+   macro avg       0.69      0.69      0.69      4100
+weighted avg       0.69      0.69      0.69      4100
+
+Accuracy 0.6870731707317074
+0.3760993480682373 seconds to test the SVM classifier
+Using trained model ['en', 'es']
+Testing using ['ar'] languages
+Shape of X dataframe: (1000, 1000)
+Shape of y dataframe: 1000
+Matrix of confusion
+[[364 136]
+ [161 339]]
+              precision    recall  f1-score   support
+
+      female       0.69      0.73      0.71       500
+        male       0.71      0.68      0.70       500
+
+   micro avg       0.70      0.70      0.70      1000
+   macro avg       0.70      0.70      0.70      1000
+weighted avg       0.70      0.70      0.70      1000
+
+Accuracy 0.703
+0.026797771453857422 seconds to test the SVM classifier
+Using trained model ['ar']
+Testing using ['ar'] languages
+Shape of X dataframe: (1000, 1000)
+Shape of y dataframe: 1000
+Matrix of confusion
+[[343 157]
+ [167 333]]
+              precision    recall  f1-score   support
+
+      female       0.67      0.69      0.68       500
+        male       0.68      0.67      0.67       500
+
+   micro avg       0.68      0.68      0.68      1000
+   macro avg       0.68      0.68      0.68      1000
+weighted avg       0.68      0.68      0.68      1000
+
+Accuracy 0.676
+0.04680228233337402 seconds to test the SVM classifier
+Using trained model ['es']
+Testing using ['ar'] languages
+Shape of X dataframe: (1000, 1000)
+Shape of y dataframe: 1000
+Matrix of confusion
+[[372 128]
+ [176 324]]
+              precision    recall  f1-score   support
+
+      female       0.68      0.74      0.71       500
+        male       0.72      0.65      0.68       500
+
+   micro avg       0.70      0.70      0.70      1000
+   macro avg       0.70      0.70      0.70      1000
+weighted avg       0.70      0.70      0.70      1000
+
+Accuracy 0.696
+0.06093263626098633 seconds to test the SVM classifier
+Using trained model ['es', 'ar']
+Testing using ['ar'] languages
+Shape of X dataframe: (1000, 1000)
+Shape of y dataframe: 1000
+Matrix of confusion
+[[379 121]
+ [172 328]]
+              precision    recall  f1-score   support
+
+      female       0.69      0.76      0.72       500
+        male       0.73      0.66      0.69       500
+
+   micro avg       0.71      0.71      0.71      1000
+   macro avg       0.71      0.71      0.71      1000
+weighted avg       0.71      0.71      0.71      1000
+
+Accuracy 0.707
+0.09076738357543945 seconds to test the SVM classifier
+Using trained model ['en', 'ar']
+Testing using ['ar'] languages
+Shape of X dataframe: (1000, 1000)
+Shape of y dataframe: 1000
+Matrix of confusion
+[[364 136]
+ [170 330]]
+              precision    recall  f1-score   support
+
+      female       0.68      0.73      0.70       500
+        male       0.71      0.66      0.68       500
+
+   micro avg       0.69      0.69      0.69      1000
+   macro avg       0.69      0.69      0.69      1000
+weighted avg       0.69      0.69      0.69      1000
+
+Accuracy 0.694
+0.10482549667358398 seconds to test the SVM classifier
+Using trained model ['en']
+Testing using ['ar'] languages
+Shape of X dataframe: (1000, 1000)
+Shape of y dataframe: 1000
+Matrix of confusion
+[[368 132]
+ [178 322]]
+              precision    recall  f1-score   support
+
+      female       0.67      0.74      0.70       500
+        male       0.71      0.64      0.68       500
+
+   micro avg       0.69      0.69      0.69      1000
+   macro avg       0.69      0.69      0.69      1000
+weighted avg       0.69      0.69      0.69      1000
+
+Accuracy 0.69
+0.13501191139221191 seconds to test the SVM classifier
+Using trained model ['en', 'es', 'ar']
+Testing using ['ar'] languages
+Shape of X dataframe: (1000, 1000)
+Shape of y dataframe: 1000
+Matrix of confusion
+[[363 137]
+ [156 344]]
+              precision    recall  f1-score   support
+
+      female       0.70      0.73      0.71       500
+        male       0.72      0.69      0.70       500
+
+   micro avg       0.71      0.71      0.71      1000
+   macro avg       0.71      0.71      0.71      1000
+weighted avg       0.71      0.71      0.71      1000
+
+Accuracy 0.707
+0.1547858715057373 seconds to test the SVM classifier
+Using trained model ['en', 'es']
+Testing using ['en', 'ar'] languages
+Shape of X dataframe: (2900, 1000)
+Shape of y dataframe: 2900
+Matrix of confusion
+[[1012  438]
+ [ 433 1017]]
+              precision    recall  f1-score   support
+
+      female       0.70      0.70      0.70      1450
+        male       0.70      0.70      0.70      1450
+
+   micro avg       0.70      0.70      0.70      2900
+   macro avg       0.70      0.70      0.70      2900
+weighted avg       0.70      0.70      0.70      2900
+
+Accuracy 0.6996551724137932
+0.025821208953857422 seconds to test the SVM classifier
+Using trained model ['ar']
+Testing using ['en', 'ar'] languages
+Shape of X dataframe: (2900, 1000)
+Shape of y dataframe: 2900
+Matrix of confusion
+[[919 531]
+ [498 952]]
+              precision    recall  f1-score   support
+
+      female       0.65      0.63      0.64      1450
+        male       0.64      0.66      0.65      1450
+
+   micro avg       0.65      0.65      0.65      2900
+   macro avg       0.65      0.65      0.65      2900
+weighted avg       0.65      0.65      0.65      2900
+
+Accuracy 0.6451724137931034
+0.051241159439086914 seconds to test the SVM classifier
+Using trained model ['es']
+Testing using ['en', 'ar'] languages
+Shape of X dataframe: (2900, 1000)
+Shape of y dataframe: 2900
+Matrix of confusion
+[[1037  413]
+ [ 509  941]]
+              precision    recall  f1-score   support
+
+      female       0.67      0.72      0.69      1450
+        male       0.69      0.65      0.67      1450
+
+   micro avg       0.68      0.68      0.68      2900
+   macro avg       0.68      0.68      0.68      2900
+weighted avg       0.68      0.68      0.68      2900
+
+Accuracy 0.6820689655172414
+0.0765683650970459 seconds to test the SVM classifier
+Using trained model ['es', 'ar']
+Testing using ['en', 'ar'] languages
+Shape of X dataframe: (2900, 1000)
+Shape of y dataframe: 2900
+Matrix of confusion
+[[1042  408]
+ [ 500  950]]
+              precision    recall  f1-score   support
+
+      female       0.68      0.72      0.70      1450
+        male       0.70      0.66      0.68      1450
+
+   micro avg       0.69      0.69      0.69      2900
+   macro avg       0.69      0.69      0.69      2900
+weighted avg       0.69      0.69      0.69      2900
+
+Accuracy 0.6868965517241379
+0.10393428802490234 seconds to test the SVM classifier
+Using trained model ['en', 'ar']
+Testing using ['en', 'ar'] languages
+Shape of X dataframe: (2900, 1000)
+Shape of y dataframe: 2900
+Matrix of confusion
+[[ 992  458]
+ [ 447 1003]]
+              precision    recall  f1-score   support
+
+      female       0.69      0.68      0.69      1450
+        male       0.69      0.69      0.69      1450
+
+   micro avg       0.69      0.69      0.69      2900
+   macro avg       0.69      0.69      0.69      2900
+weighted avg       0.69      0.69      0.69      2900
+
+Accuracy 0.6879310344827586
+0.12950563430786133 seconds to test the SVM classifier
+Using trained model ['en']
+Testing using ['en', 'ar'] languages
+Shape of X dataframe: (2900, 1000)
+Shape of y dataframe: 2900
+Matrix of confusion
+[[1023  427]
+ [ 455  995]]
+              precision    recall  f1-score   support
+
+      female       0.69      0.71      0.70      1450
+        male       0.70      0.69      0.69      1450
+
+   micro avg       0.70      0.70      0.70      2900
+   macro avg       0.70      0.70      0.70      2900
+weighted avg       0.70      0.70      0.70      2900
+
+Accuracy 0.6958620689655173
+0.1549239158630371 seconds to test the SVM classifier
+Using trained model ['en', 'es', 'ar']
+Testing using ['en', 'ar'] languages
+Shape of X dataframe: (2900, 1000)
+Shape of y dataframe: 2900
+Matrix of confusion
+[[1016  434]
+ [ 429 1021]]
+              precision    recall  f1-score   support
+
+      female       0.70      0.70      0.70      1450
+        male       0.70      0.70      0.70      1450
+
+   micro avg       0.70      0.70      0.70      2900
+   macro avg       0.70      0.70      0.70      2900
+weighted avg       0.70      0.70      0.70      2900
+
+Accuracy 0.7024137931034483
+0.1807246208190918 seconds to test the SVM classifier
+Using trained model ['en', 'es']
+Testing using ['es', 'ar'] languages
+Shape of X dataframe: (3200, 1000)
+Shape of y dataframe: 3200
+Matrix of confusion
+[[1074  526]
+ [ 486 1114]]
+              precision    recall  f1-score   support
+
+      female       0.69      0.67      0.68      1600
+        male       0.68      0.70      0.69      1600
+
+   micro avg       0.68      0.68      0.68      3200
+   macro avg       0.68      0.68      0.68      3200
+weighted avg       0.68      0.68      0.68      3200
+
+Accuracy 0.68375
+0.027597665786743164 seconds to test the SVM classifier
+Using trained model ['ar']
+Testing using ['es', 'ar'] languages
+Shape of X dataframe: (3200, 1000)
+Shape of y dataframe: 3200
+Matrix of confusion
+[[ 934  666]
+ [ 483 1117]]
+              precision    recall  f1-score   support
+
+      female       0.66      0.58      0.62      1600
+        male       0.63      0.70      0.66      1600
+
+   micro avg       0.64      0.64      0.64      3200
+   macro avg       0.64      0.64      0.64      3200
+weighted avg       0.64      0.64      0.64      3200
+
+Accuracy 0.6409375
+0.05529499053955078 seconds to test the SVM classifier
+Using trained model ['es']
+Testing using ['es', 'ar'] languages
+Shape of X dataframe: (3200, 1000)
+Shape of y dataframe: 3200
+Matrix of confusion
+[[1100  500]
+ [ 521 1079]]
+              precision    recall  f1-score   support
+
+      female       0.68      0.69      0.68      1600
+        male       0.68      0.67      0.68      1600
+
+   micro avg       0.68      0.68      0.68      3200
+   macro avg       0.68      0.68      0.68      3200
+weighted avg       0.68      0.68      0.68      3200
+
+Accuracy 0.6809375
+0.08272886276245117 seconds to test the SVM classifier
+Using trained model ['es', 'ar']
+Testing using ['es', 'ar'] languages
+Shape of X dataframe: (3200, 1000)
+Shape of y dataframe: 3200
+Matrix of confusion
+[[1088  512]
+ [ 516 1084]]
+              precision    recall  f1-score   support
+
+      female       0.68      0.68      0.68      1600
+        male       0.68      0.68      0.68      1600
+
+   micro avg       0.68      0.68      0.68      3200
+   macro avg       0.68      0.68      0.68      3200
+weighted avg       0.68      0.68      0.68      3200
+
+Accuracy 0.67875
+0.11027026176452637 seconds to test the SVM classifier
+Using trained model ['en', 'ar']
+Testing using ['es', 'ar'] languages
+Shape of X dataframe: (3200, 1000)
+Shape of y dataframe: 3200
+Matrix of confusion
+[[1051  549]
+ [ 508 1092]]
+              precision    recall  f1-score   support
+
+      female       0.67      0.66      0.67      1600
+        male       0.67      0.68      0.67      1600
+
+   micro avg       0.67      0.67      0.67      3200
+   macro avg       0.67      0.67      0.67      3200
+weighted avg       0.67      0.67      0.67      3200
+
+Accuracy 0.6696875
+0.13788461685180664 seconds to test the SVM classifier
+Using trained model ['en']
+Testing using ['es', 'ar'] languages
+Shape of X dataframe: (3200, 1000)
+Shape of y dataframe: 3200
+Matrix of confusion
+[[1092  508]
+ [ 535 1065]]
+              precision    recall  f1-score   support
+
+      female       0.67      0.68      0.68      1600
+        male       0.68      0.67      0.67      1600
+
+   micro avg       0.67      0.67      0.67      3200
+   macro avg       0.67      0.67      0.67      3200
+weighted avg       0.67      0.67      0.67      3200
+
+Accuracy 0.6740625
+0.16551446914672852 seconds to test the SVM classifier
+Using trained model ['en', 'es', 'ar']
+Testing using ['es', 'ar'] languages
+Shape of X dataframe: (3200, 1000)
+Shape of y dataframe: 3200
+Matrix of confusion
+[[1069  531]
+ [ 475 1125]]
+              precision    recall  f1-score   support
+
+      female       0.69      0.67      0.68      1600
+        male       0.68      0.70      0.69      1600
+
+   micro avg       0.69      0.69      0.69      3200
+   macro avg       0.69      0.69      0.69      3200
+weighted avg       0.69      0.69      0.69      3200
+
+Accuracy 0.685625
+0.1944417953491211 seconds to test the SVM classifier
+Using trained model ['en', 'es']
+Testing using ['en', 'es', 'ar'] languages
+Shape of X dataframe: (5100, 1000)
+Shape of y dataframe: 5100
+Matrix of confusion
+[[1722  828]
+ [ 758 1792]]
+              precision    recall  f1-score   support
+
+      female       0.69      0.68      0.68      2550
+        male       0.68      0.70      0.69      2550
+
+   micro avg       0.69      0.69      0.69      5100
+   macro avg       0.69      0.69      0.69      5100
+weighted avg       0.69      0.69      0.69      5100
+
+Accuracy 0.6890196078431372
+0.11745977401733398 seconds to test the SVM classifier
+Using trained model ['ar']
+Testing using ['en', 'es', 'ar'] languages
+Shape of X dataframe: (5100, 1000)
+Shape of y dataframe: 5100
+Matrix of confusion
+[[1510 1040]
+ [ 814 1736]]
+              precision    recall  f1-score   support
+
+      female       0.65      0.59      0.62      2550
+        male       0.63      0.68      0.65      2550
+
+   micro avg       0.64      0.64      0.64      5100
+   macro avg       0.64      0.64      0.64      5100
+weighted avg       0.64      0.64      0.64      5100
+
+Accuracy 0.6364705882352941
+0.16183233261108398 seconds to test the SVM classifier
+Using trained model ['es']
+Testing using ['en', 'es', 'ar'] languages
+Shape of X dataframe: (5100, 1000)
+Shape of y dataframe: 5100
+Matrix of confusion
+[[1765  785]
+ [ 854 1696]]
+              precision    recall  f1-score   support
+
+      female       0.67      0.69      0.68      2550
+        male       0.68      0.67      0.67      2550
+
+   micro avg       0.68      0.68      0.68      5100
+   macro avg       0.68      0.68      0.68      5100
+weighted avg       0.68      0.68      0.68      5100
+
+Accuracy 0.6786274509803921
+0.20607280731201172 seconds to test the SVM classifier
+Using trained model ['es', 'ar']
+Testing using ['en', 'es', 'ar'] languages
+Shape of X dataframe: (5100, 1000)
+Shape of y dataframe: 5100
+Matrix of confusion
+[[1751  799]
+ [ 844 1706]]
+              precision    recall  f1-score   support
+
+      female       0.67      0.69      0.68      2550
+        male       0.68      0.67      0.67      2550
+
+   micro avg       0.68      0.68      0.68      5100
+   macro avg       0.68      0.68      0.68      5100
+weighted avg       0.68      0.68      0.68      5100
+
+Accuracy 0.677843137254902
+0.25070905685424805 seconds to test the SVM classifier
+Using trained model ['en', 'ar']
+Testing using ['en', 'es', 'ar'] languages
+Shape of X dataframe: (5100, 1000)
+Shape of y dataframe: 5100
+Matrix of confusion
+[[1679  871]
+ [ 785 1765]]
+              precision    recall  f1-score   support
+
+      female       0.68      0.66      0.67      2550
+        male       0.67      0.69      0.68      2550
+
+   micro avg       0.68      0.68      0.68      5100
+   macro avg       0.68      0.68      0.68      5100
+weighted avg       0.68      0.68      0.68      5100
+
+Accuracy 0.6752941176470588
+0.3195455074310303 seconds to test the SVM classifier
+Using trained model ['en']
+Testing using ['en', 'es', 'ar'] languages
+Shape of X dataframe: (5100, 1000)
+Shape of y dataframe: 5100
+Matrix of confusion
+[[1747  803]
+ [ 812 1738]]
+              precision    recall  f1-score   support
+
+      female       0.68      0.69      0.68      2550
+        male       0.68      0.68      0.68      2550
+
+   micro avg       0.68      0.68      0.68      5100
+   macro avg       0.68      0.68      0.68      5100
+weighted avg       0.68      0.68      0.68      5100
+
+Accuracy 0.6833333333333333
+0.39783310890197754 seconds to test the SVM classifier
+Using trained model ['en', 'es', 'ar']
+Testing using ['en', 'es', 'ar'] languages
+Shape of X dataframe: (5100, 1000)
+Shape of y dataframe: 5100
+Matrix of confusion
+[[1722  828]
+ [ 748 1802]]
+              precision    recall  f1-score   support
+
+      female       0.70      0.68      0.69      2550
+        male       0.69      0.71      0.70      2550
+
+   micro avg       0.69      0.69      0.69      5100
+   macro avg       0.69      0.69      0.69      5100
+weighted avg       0.69      0.69      0.69      5100
+
+Accuracy 0.6909803921568628
+0.4407973289489746 seconds to test the SVM classifier

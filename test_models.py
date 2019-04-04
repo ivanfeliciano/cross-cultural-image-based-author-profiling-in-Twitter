@@ -27,22 +27,28 @@ def test_all_combinations(list_of_dataframes, list_of_labels, list_of_ids, model
 				subset_of_ids.append(list_of_ids[j])
 				subset_of_dataframes.append(list_of_dataframes[j])
 				subset_of_labels.append(list_of_labels[j])
-		print(subset_of_ids)
 		if len(subset_of_dataframes) > 1:
 			X = pd.concat(subset_of_dataframes, ignore_index=True)
 			y = []
-			for i in subset_of_labels:
-				y += i
+			for lab in subset_of_labels:
+				y += lab
 		else:
 			X = subset_of_dataframes[0]
 			y = subset_of_labels[0]
-		print("Shape of X dataframe: {}".format(X.shape))
-		print("Shape of y dataframe: {}".format(len(y)))
 		t_start = time()
-		print("Testing using {} languages".format(subset_of_ids))
-		for i in range(len(loaded_models)): 
-			print("Using model {}".format(models_files_paths[i]))
-			y_pred = loaded_models[i].predict(X)
+		for model_idx in range(len(loaded_models)):
+			models_split = models_files_paths[model_idx].replace(models_dir, "") 
+			models_split = models_files_paths[model_idx].strip().split('_')
+			ids_models = []
+			for s in models_split:
+				if s == "svm":
+					break
+				ids_models.append(s)
+			print("Using trained model {}".format(ids_models))
+			print("Testing using {} languages".format(subset_of_ids))
+			print("Shape of X dataframe: {}".format(X.shape))
+			print("Shape of y dataframe: {}".format(len(y)))
+			y_pred = loaded_models[model_idx].predict(X)
 			print("Matrix of confusion")
 			print(confusion_matrix(y, y_pred))
 			print(classification_report(y, y_pred))
