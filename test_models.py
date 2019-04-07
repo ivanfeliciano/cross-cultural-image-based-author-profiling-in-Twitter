@@ -63,7 +63,7 @@ def create_avg_dataset(dataframe, json_labels_file_path):
 	return X, y
 
 def main():
-	test_data_csv_paths = ['./datasets/en_test.csv', './datasets/es_test.csv', './datasets/ar_test.csv']
+	test_data_csv_paths = ['./resnet_datasets/en_test.csv', './resnet_datasets/es_test.csv', './resnet_datasets/ar_test.csv']
 	test_labels_json_paths = ['./authors_labels/en_test_labels.json', './authors_labels/es_test_labels.json',\
 								'./authors_labels/ar_test_labels.json']
 	X_dataframes = [None for i in range(len(test_data_csv_paths))]
@@ -77,7 +77,7 @@ def main():
 		X_dataframes[i], y_dataframes[i] =  create_avg_dataset(X, path_y)
 		i += 1
 	print("{} seconds to read csv's and create all dataframes".format(time() - t_start))
-	test_all_combinations(X_dataframes, y_dataframes, list_of_ids)
+	test_all_combinations(X_dataframes, y_dataframes, list_of_ids, './models/resnet/')
 
 if __name__ == '__main__':
 	main()
