@@ -41,7 +41,7 @@ def test_all_combinations(list_of_dataframes, list_of_labels, list_of_ids, model
 			models_split = models_files_paths[model_idx].strip().split('_')
 			ids_models = []
 			for s in models_split:
-				if s == "svm":
+				if s == "dec":
 					break
 				ids_models.append(s)
 			print("Using trained model {}".format(ids_models))
@@ -53,7 +53,7 @@ def test_all_combinations(list_of_dataframes, list_of_labels, list_of_ids, model
 			print(confusion_matrix(y, y_pred))
 			print(classification_report(y, y_pred))
 			print("Accuracy {}".format(accuracy_score(y, y_pred)))
-			print("{} seconds to test the SVM classifier".format(time() - t_start))
+			print("{} seconds to test the tree classifier".format(time() - t_start))
 
 def create_avg_dataset(dataframe, json_labels_file_path):
 	X = dataframe.groupby('author_id').mean()
@@ -63,7 +63,8 @@ def create_avg_dataset(dataframe, json_labels_file_path):
 	return X, y
 
 def main():
-	test_data_csv_paths = ['./resnet_datasets/en_test.csv', './resnet_datasets/es_test.csv', './resnet_datasets/ar_test.csv']
+	BASE_PATH_DATA = '/media/ivan/DDE/datasets_proyecto_mt'
+	test_data_csv_paths = ['/datasets/en_test.csv', '/datasets/es_test.csv', '/datasets/ar_test.csv']
 	test_labels_json_paths = ['./authors_labels/en_test_labels.json', './authors_labels/es_test_labels.json',\
 								'./authors_labels/ar_test_labels.json']
 	X_dataframes = [None for i in range(len(test_data_csv_paths))]
@@ -73,11 +74,11 @@ def main():
 	t_start = time()
 	for path_x, path_y in zip(test_data_csv_paths, test_labels_json_paths):
 		list_of_ids[i] = path_x.strip().split('/')[2][:2]
-		X = pd.read_csv(path_x, sep='\s*,\s*', header=0, encoding='ascii', engine='python')
+		X = pd.read_csv(BASE_PATH_DATA + path_x, sep='\s*,\s*', header=0, encoding='ascii', engine='python')
 		X_dataframes[i], y_dataframes[i] =  create_avg_dataset(X, path_y)
 		i += 1
 	print("{} seconds to read csv's and create all dataframes".format(time() - t_start))
-	test_all_combinations(X_dataframes, y_dataframes, list_of_ids, './models/resnet/')
+	test_all_combinations(X_dataframes, y_dataframes, list_of_ids, './models/trees/')
 
 if __name__ == '__main__':
 	main()

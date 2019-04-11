@@ -6,6 +6,7 @@ import numpy as np
 from sklearn.svm import LinearSVC
 from sklearn.model_selection import GridSearchCV
 from sklearn.externals import joblib
+from sklearn import tree
 
 # 0 en
 # 1 es
@@ -33,12 +34,13 @@ def train_all_combinations(list_of_dataframes, list_of_labels, list_of_ids, mode
 		print("Shape of X dataframe: {}".format(X.shape))
 		print("Shape of y dataframe: {}".format(len(y)))
 		t_start = time()
-		param = [{"C": [0.01, 0.1, 1, 10, 100, 1000]}]
-		clf = GridSearchCV(LinearSVC(), param)
+		# param = [{"C": [0.01, 0.1, 1, 10, 100, 1000]}]
+		# clf = GridSearchCV(LinearSVC(), param)
+		clf = tree.DecisionTreeClassifier()
 		clf.fit(X, y)
-		print("Best parameter for classifier {}".format(clf.best_params_))
-		print("{} seconds to train the SVM classifier".format(time() - t_start))
-		joblib.dump(clf, '{}{}_svm_kernel_lin_avg_grid.sav'.format(models_dir, '_'.join(subset_of_ids)))
+		# print("Best parameter for classifier {}".format(clf.best_params_))
+		print("{} seconds to train the Tree classifier".format(time() - t_start))
+		joblib.dump(clf, '{}{}_dec_tree.sav'.format(models_dir, '_'.join(subset_of_ids)))
 
 def create_avg_dataset(dataframe, json_labels_file_path):
 	X = dataframe.groupby('author_id').mean()
@@ -48,7 +50,8 @@ def create_avg_dataset(dataframe, json_labels_file_path):
 	return X, y
 
 def main():
-	train_data_csv_paths = ['./resnet_datasets/en_train.csv', './resnet_datasets/es_train.csv', './resnet_datasets/ar_train.csv']
+	BASE_PATH_DATA = '/media/ivan/DDE/datasets_proyecto_mt'
+	train_data_csv_paths = ['/datasets/en_train.csv', '/datasets/es_train.csv', '/datasets/ar_train.csv']
 	train_labels_json_paths = ['./authors_labels/en_train_labels.json', './authors_labels/es_train_labels.json',\
 								'./authors_labels/ar_train_labels.json']
 	X_dataframes = [None for i in range(len(train_data_csv_paths))]
@@ -58,11 +61,11 @@ def main():
 	t_start = time()
 	for path_x, path_y in zip(train_data_csv_paths, train_labels_json_paths):
 		list_of_ids[i] = path_x.strip().split('/')[2][:2]
-		X = pd.read_csv(path_x, sep='\s*,\s*', header=0, encoding='ascii', engine='python')
+		X = pd.read_csv(BASE_PATH_DATA + path_x, sep='\s*,\s*', header=0, encoding='ascii', engine='python')
 		X_dataframes[i], y_dataframes[i] =  create_avg_dataset(X, path_y)
 		i += 1
 	print("{} seconds to read csv's and create all dataframes".format(time() - t_start))
-	train_all_combinations(X_dataframes, y_dataframes, list_of_ids, './models/resnet/')
+	train_all_combinations(X_dataframes, y_dataframes, list_of_ids)
 
 if __name__ == '__main__':
 	main()
