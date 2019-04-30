@@ -1,0 +1,368 @@
+
+*EN-F--EN-M
+Atributos-EN-F  Atributos-EN-M
+bikini 0.017274929926495944 bikini 0
+brassiere 0.023067859256353164 brassiere 0
+envelope 0.025197946352379902 envelope 0
+feather_boa 0.01619323702647489 feather_boa 0
+fur_coat 0.02361509527499851 fur_coat 0
+gown 0.01966514352955101 gown 0
+hair_spray 0.023247548018674555 hair_spray 0
+maillot 0.01793899804400555 maillot 0
+miniskirt 0.034331687197932836 miniskirt 0
+packet 0.015843959746059788 packet 0
+pajama 0.015087743002113421 pajama 0
+seat_belt 0.01703448999031731 seat_belt 0
+stage 0.01700476994755011 stage 0
+stole 0.02145186117198532 stole 0
+wig 0.06841459337050343 wig 0
+basketball 0 basketball -0.020799309329008538
+scoreboard 0 scoreboard -0.028702661330790476
+slide_rule 0 slide_rule -0.01737208773273648
+soccer_ball 0 soccer_ball -0.015465007571263293
+suit 0 suit -0.05605062727215912
+Windsor_tie 0 Windsor_tie -0.019689708295479738
+ballplayer 0 ballplayer -0.02378838052861177
+
+*EN-M--ES-M
+Atributos-EN-M  Atributos-ES-M
+slide_rule 0.03201015368556291 slide_rule 0
+suit 0.04007543890763407 suit 0
+lab_coat 0 lab_coat -0.02643552896927666
+torch 0 torch -0.02647426538143737
+comic_book 0 comic_book -0.042638460599882994
+
+*ES-F--EN-M
+Atributos-ES-F  Atributos-EN-M
+abaya 0.01647631665769558 abaya 0
+bikini 0.028784630555492095 bikini 0
+brassiere 0.024770313320353676 brassiere 0
+gown 0.017816710245331997 gown 0
+hair_spray 0.02621103099647864 hair_spray 0
+maillot 0.022372076042651633 maillot 0
+miniskirt 0.031990345628628944 miniskirt 0
+pajama 0.018561050715166456 pajama 0
+seat_belt 0.019097057738681377 seat_belt 0
+stole 0.021612657670182587 stole 0
+sunglasses 0.018073418752505167 sunglasses 0
+wig 0.05394159721130918 wig 0
+basketball 0 basketball -0.018128798491962743
+bow_tie 0 bow_tie -0.01595146039098276
+home_theater 0 home_theater -0.016160056877311684
+rugby_ball 0 rugby_ball -0.015631103137504133
+scoreboard 0 scoreboard -0.03552277004808711
+slide_rule 0 slide_rule -0.027366081985379775
+suit 0 suit -0.08886849935520391
+Windsor_tie 0 Windsor_tie -0.029158739420813384
+ballplayer 0 ballplayer -0.02057792148793694
+
+*EN-M--AR-M
+Atributos-EN-M  Atributos-AR-M
+suit 0.018312901214284055 suit 0
+web_site 0.06015739412663457 web_site 0
+comic_book 0.015736937661117542 comic_book 0
+abaya 0 abaya -0.040385403086433555
+binder 0 binder -0.024687938177584745
+bow_tie 0 bow_tie -0.018747633696278368
+cloak 0 cloak -0.01641934286338062
+envelope 0 envelope -0.07439197307103865
+fountain_pen 0 fountain_pen -0.02320011520165437
+lab_coat 0 lab_coat -0.04611102308374351
+mosque 0 mosque -0.018967089113775645
+rugby_ball 0 rugby_ball -0.017229365006529763
+seat_belt 0 seat_belt -0.02259957174389728
+shower_cap 0 shower_cap -0.017047821150488744
+soccer_ball 0 soccer_ball -0.02542064397318311
+television 0 television -0.015072805876494566
+torch 0 torch -0.040176377712823515
+vestment 0 vestment -0.03432259391506304
+menu 0 menu -0.06004423398507702
+cliff 0 cliff -0.01512353638982026
+seashore 0 seashore -0.017742979395686424
+ballplayer 0 ballplayer -0.03244905564934074
+
+*AR-F--EN-M
+Atributos-AR-F  Atributos-EN-M
+abaya 0.07876080788079805 abaya 0
+binder 0.026470533768530986 binder 0
+bonnet 0.01791530959381676 bonnet 0
+brassiere 0.019081471107995608 brassiere 0
+cloak 0.03057253327702887 cloak 0
+envelope 0.14456930210558785 envelope 0
+fountain_pen 0.031136653603237686 fountain_pen 0
+fur_coat 0.019016093885891757 fur_coat 0
+gown 0.03330303305532587 gown 0
+hair_spray 0.023017227359234296 hair_spray 0
+hoopskirt 0.017648534189900533 hoopskirt 0
+lab_coat 0.01697493417524734 lab_coat 0
+lipstick 0.016497656009933265 lipstick 0
+mask 0.01923871071118043 mask 0
+miniskirt 0.018777795665904297 miniskirt 0
+mosque 0.017650363090740032 mosque 0
+overskirt 0.017915960489639084 overskirt 0
+rubber_eraser 0.015150530278967456 rubber_eraser 0
+stole 0.01845072943026897 stole 0
+vestment 0.015940814344024484 vestment 0
+wig 0.058710346026273015 wig 0
+menu 0.06751570856715111 menu 0
+basketball 0 basketball -0.017218113409026806
+home_theater 0 home_theater -0.018822134108195464
+scoreboard 0 scoreboard -0.03445021053401778
+stage 0 stage -0.03034117226665549
+suit 0 suit -0.09101880665679653
+Windsor_tie 0 Windsor_tie -0.02617950456251285
+web_site 0 web_site -0.05499256763439908
+comic_book 0 comic_book -0.041037351585028956
+
+*EN-F--ES-M
+Atributos-EN-F  Atributos-ES-M
+brassiere 0.017711538273836893 brassiere 0
+envelope 0.031763681276499534 envelope 0
+feather_boa 0.018378185344061066 feather_boa 0
+fur_coat 0.027449450121530976 fur_coat 0
+hair_spray 0.01865133615041682 hair_spray 0
+home_theater 0.01573492819814291 home_theater 0
+miniskirt 0.02835950411327467 miniskirt 0
+packet 0.021162675613301568 packet 0
+stage 0.01841777914143665 stage 0
+stole 0.023599225457196026 stole 0
+wig 0.06944849852952821 wig 0
+plate 0.015397608376227175 plate 0
+basketball 0 basketball -0.02086361764312456
+lab_coat 0 lab_coat -0.027844197046379388
+scoreboard 0 scoreboard -0.02791731309152099
+soccer_ball 0 soccer_ball -0.02003037767799153
+suit 0 suit -0.01597518836452505
+torch 0 torch -0.03383996908268032
+comic_book 0 comic_book -0.0443724518169555
+ballplayer 0 ballplayer -0.03588085747641677
+
+*EN-F--ES-F
+Atributos-EN-F  Atributos-ES-F
+cinema 0.016213044158435046 cinema 0
+envelope 0.02493691966473413 envelope 0
+home_theater 0.0197148728169718 home_theater 0
+packet 0.01508509491474562 packet 0
+stage 0.01982756694554602 stage 0
+suit 0.03281787208304479 suit 0
+book_jacket 0.015570947743039437 book_jacket 0
+web_site 0 web_site -0.023493686112268874
+
+*EN-F--AR-M
+Atributos-EN-F  Atributos-AR-M
+brassiere 0.019942475487347122 brassiere 0
+feather_boa 0.01672692883677039 feather_boa 0
+fur_coat 0.020077011198655386 fur_coat 0
+home_theater 0.016803626275834982 home_theater 0
+maillot 0.01630281141987821 maillot 0
+miniskirt 0.033867998678114464 miniskirt 0
+packet 0.025795650524063928 packet 0
+stage 0.03090536773765272 stage 0
+stole 0.018951855037507185 stole 0
+wig 0.06317825432505475 wig 0
+web_site 0.04707981856477306 web_site 0
+abaya 0 abaya -0.026536116555454174
+basketball 0 basketball -0.024881473501808506
+binder 0 binder -0.022618212482243334
+bow_tie 0 bow_tie -0.029739335388117648
+envelope 0 envelope -0.049194026718658745
+football_helmet 0 football_helmet -0.021086359794662796
+fountain_pen 0 fountain_pen -0.02165358326911601
+lab_coat 0 lab_coat -0.04751969116084624
+military_uniform 0 military_uniform -0.020125447043726184
+mosque 0 mosque -0.018409655851728646
+racket 0 racket -0.016356035038409218
+rugby_ball 0 rugby_ball -0.02904952365436385
+scoreboard 0 scoreboard -0.04087934432210698
+soccer_ball 0 soccer_ball -0.0408856515444464
+suit 0 suit -0.037737726057875065
+television 0 television -0.017036987199305388
+torch 0 torch -0.04754208141406646
+vestment 0 vestment -0.03340815287696437
+Windsor_tie 0 Windsor_tie -0.016765173311573095
+menu 0 menu -0.07056052209638486
+ballplayer 0 ballplayer -0.05623743617795251
+
+*EN-F--AR-F
+Atributos-EN-F  Atributos-AR-F
+home_theater 0.02237695004785558 home_theater 0
+miniskirt 0.01555389153202854 miniskirt 0
+packet 0.017501910852484266 packet 0
+restaurant 0.015422289808945746 restaurant 0
+stage 0.0473459422142056 stage 0
+suit 0.03496817938463741 suit 0
+web_site 0.04191499207253757 web_site 0
+comic_book 0.03930336036795645 comic_book 0
+abaya 0 abaya -0.06491152134981867
+binder 0 binder -0.024400808073189575
+cloak 0 cloak -0.016642734743628134
+envelope 0 envelope -0.11937135575320795
+fountain_pen 0 fountain_pen -0.029590121670699326
+lab_coat 0 lab_coat -0.01838360225235007
+mosque 0 mosque -0.017092929828693034
+vestment 0 vestment -0.015026373305925819
+menu 0 menu -0.07803199667845895
+
+*ES-F--ES-M
+Atributos-ES-F  Atributos-ES-M
+abaya 0.015621971195906081 abaya 0
+bikini 0.022244369086677616 bikini 0
+brassiere 0.019413992337837405 brassiere 0
+fur_coat 0.01765033709822299 fur_coat 0
+hair_spray 0.021614819128220903 hair_spray 0
+maillot 0.016393017569094708 maillot 0
+miniskirt 0.02601816254397078 miniskirt 0
+seat_belt 0.015781690796593913 seat_belt 0
+stole 0.02376002195539329 stole 0
+wig 0.05497550237033397 wig 0
+basketball 0 basketball -0.01819310680607877
+lab_coat 0 lab_coat -0.02094151332827067
+rugby_ball 0 rugby_ball -0.017820899597040765
+scoreboard 0 scoreboard -0.03473742180881763
+soccer_ball 0 soccer_ball -0.0182591820842345
+suit 0 suit -0.04879306044756984
+torch 0 torch -0.025386632681575476
+Windsor_tie 0 Windsor_tie -0.0171179708721992
+comic_book 0 comic_book -0.03235314604944382
+ballplayer 0 ballplayer -0.03267039843574194
+
+*ES-M--AR-M
+Atributos-ES-M  Atributos-AR-M
+web_site 0.06185503553131977 web_site 0
+comic_book 0.058375398261000536 comic_book 0
+abaya 0 abaya -0.03953105762464406
+academic_gown 0 academic_gown -0.01699372761340981
+binder 0 binder -0.03140450296049786
+bow_tie 0 bow_tie -0.027302061873389585
+castle 0 castle -0.020025663590946763
+envelope 0 envelope -0.08095770799515828
+fountain_pen 0 fountain_pen -0.02480774786865211
+lab_coat 0 lab_coat -0.019675494114466854
+mosque 0 mosque -0.019271552883728647
+rugby_ball 0 rugby_ball -0.015039568546993131
+seat_belt 0 seat_belt -0.019284204801809816
+shower_cap 0 shower_cap -0.016084833698603165
+slide_rule 0 slide_rule -0.022676021761493696
+soccer_ball 0 soccer_ball -0.020855273866454874
+suit 0 suit -0.021762537693350015
+vestment 0 vestment -0.029447614563335226
+menu 0 menu -0.06700845295644822
+cliff 0 cliff -0.018194489976386768
+seashore 0 seashore -0.022778121889590285
+ballplayer 0 ballplayer -0.02035657870153574
+
+*AR-F--ES-M
+Atributos-AR-F  Atributos-ES-M
+abaya 0.07790646241900856 abaya 0
+binder 0.033187098551444104 binder 0
+bonnet 0.019220340730867473 bonnet 0
+cloak 0.028583564365747067 cloak 0
+envelope 0.1511350370297075 envelope 0
+fountain_pen 0.03274428627023542 fountain_pen 0
+fur_coat 0.022850448732424224 fur_coat 0
+gown 0.02801268863475867 gown 0
+hair_spray 0.01842101549097656 hair_spray 0
+hoopskirt 0.01564209801377165 hoopskirt 0
+jigsaw_puzzle 0.015829167487737654 jigsaw_puzzle 0
+lipstick 0.015245096273199317 lipstick 0
+mask 0.018209819571302365 mask 0
+mosque 0.017954826860693034 mosque 0
+overskirt 0.017998570227770013 overskirt 0
+rubber_eraser 0.018786276268729397 rubber_eraser 0
+slide_rule 0.02359773062412127 slide_rule 0
+stole 0.020598093715479673 stole 0
+wig 0.0597442511852978 wig 0
+menu 0.07447992753852231 menu 0
+basketball 0 basketball -0.01728242172314283
+rugby_ball 0 rugby_ball -0.015053621974090988
+scoreboard 0 scoreboard -0.0336648622947483
+stage 0 stage -0.02892816307276895
+suit 0 suit -0.05094336774916246
+torch 0 torch -0.028007450776557752
+web_site 0 web_site -0.05669020903908428
+comic_book 0 comic_book -0.08367581218491195
+ballplayer 0 ballplayer -0.026465344827755973
+
+*ES-F--AR-M
+Atributos-ES-F  Atributos-AR-M
+bikini 0.02578574796631714 bikini 0
+brassiere 0.021644929551347634 brassiere 0
+hair_spray 0.017942141555961015 hair_spray 0
+maillot 0.020735889418524292 maillot 0
+miniskirt 0.03152665710881057 miniskirt 0
+stole 0.01911265153570445 stole 0
+wig 0.048705258165860514 wig 0
+web_site 0.07057350467704193 web_site 0
+comic_book 0.026022252211556712 comic_book 0
+abaya 0 abaya -0.02390908642873798
+academic_gown 0 academic_gown -0.019543041991210007
+basketball 0 basketball -0.02221096266476271
+binder 0 binder -0.030896670334961567
+bow_tie 0 bow_tie -0.03469909408726113
+castle 0 castle -0.018059062279183885
+envelope 0 envelope -0.07413094638339288
+football_helmet 0 football_helmet -0.018953226907251583
+fountain_pen 0 fountain_pen -0.02293573183788144
+jersey 0 jersey -0.016948452129351872
+lab_coat 0 lab_coat -0.040617007442737524
+military_uniform 0 military_uniform -0.02181416367646583
+mosque 0 mosque -0.02020652237631966
+racket 0 racket -0.015697401548024167
+rugby_ball 0 rugby_ball -0.0328604681440339
+scoreboard 0 scoreboard -0.04769945303940361
+slide_rule 0 slide_rule -0.018031950061310555
+soccer_ball 0 soccer_ball -0.039114455950689374
+suit 0 suit -0.07055559814091986
+torch 0 torch -0.03908874501296162
+vestment 0 vestment -0.031502342671743996
+Windsor_tie 0 Windsor_tie -0.02623420443690674
+menu 0 menu -0.0689844268021679
+cliff 0 cliff -0.017614557682766603
+seashore 0 seashore -0.018430823472018975
+ballplayer 0 ballplayer -0.05302697713727768
+
+*ES-F--AR-F
+Atributos-ES-F  Atributos-AR-F
+bikini 0.019771700639253993 bikini 0
+stage 0.02751837526865958 stage 0
+web_site 0.06540867818480645 web_site 0
+comic_book 0.051322666135468126 comic_book 0
+abaya 0 abaya -0.06228449122310247
+binder 0 binder -0.03267926592590781
+cloak 0 cloak -0.017006155552889708
+envelope 0 envelope -0.14430827541794208
+fountain 0 fountain -0.015567031062090668
+fountain_pen 0 fountain_pen -0.030872270239464754
+gown 0 gown -0.015486322809993871
+jigsaw_puzzle 0 jigsaw_puzzle -0.018292486170210412
+mosque 0 mosque -0.018889796353284048
+slide_rule 0 slide_rule -0.01895365892393813
+menu 0 menu -0.07645590138424199
+
+*AR-F--AR-M
+Atributos-AR-F  Atributos-AR-M
+abaya 0.03837540479436449 abaya 0
+brassiere 0.015956087338989566 brassiere 0
+envelope 0.07017732903454921 envelope 0
+fur_coat 0.015478009809548634 fur_coat 0
+gown 0.020529173189169917 gown 0
+miniskirt 0.018314107146085924 miniskirt 0
+stole 0.015950723295790833 stole 0
+wig 0.05347400698082435 wig 0
+basketball 0 basketball -0.021300277581826774
+bow_tie 0 bow_tie -0.022688918439582886
+football_helmet 0 football_helmet -0.020314140325767824
+jersey 0 jersey -0.015414646687510088
+lab_coat 0 lab_coat -0.02913608890849617
+military_uniform 0 military_uniform -0.01550076796612946
+rugby_ball 0 rugby_ball -0.03009319052108412
+scoreboard 0 scoreboard -0.046626893525334286
+seat_belt 0 seat_belt -0.017555870276375493
+soccer_ball 0 soccer_ball -0.032657247169462375
+stage 0 stage -0.01644057447655288
+suit 0 suit -0.07270590544251247
+torch 0 torch -0.041709563107943895
+vestment 0 vestment -0.018381779571038558
+Windsor_tie 0 Windsor_tie -0.02325496957860621
+comic_book 0 comic_book -0.025300413923911413
+ballplayer 0 ballplayer -0.04682192352929171
