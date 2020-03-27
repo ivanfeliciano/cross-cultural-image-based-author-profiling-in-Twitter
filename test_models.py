@@ -29,9 +29,7 @@ def test_all_combinations(list_of_dataframes, list_of_labels, list_of_ids, model
 				subset_of_labels.append(list_of_labels[j])
 		if len(subset_of_dataframes) > 1:
 			X = pd.concat(subset_of_dataframes, ignore_index=True)
-			y = []
-			for lab in subset_of_labels:
-				y += lab
+			y = pd.concat(subset_of_labels)
 		else:
 			X = subset_of_dataframes[0]
 			y = subset_of_labels[0]
@@ -53,7 +51,7 @@ def test_all_combinations(list_of_dataframes, list_of_labels, list_of_ids, model
 			print(confusion_matrix(y, y_pred))
 			print(classification_report(y, y_pred))
 			print("Accuracy {}".format(accuracy_score(y, y_pred)))
-			print("{} seconds to test the tree classifier".format(time() - t_start))
+			print("{} seconds to test the svm classifier".format(time() - t_start))
 
 def create_avg_dataset(dataframe, json_labels_file_path):
 	X = dataframe.groupby('author_id').mean()
@@ -64,9 +62,11 @@ def create_avg_dataset(dataframe, json_labels_file_path):
 
 def main():
 	BASE_PATH_DATA = '/media/ivan/DDE/datasets_proyecto_mt'
-	test_data_csv_paths = ['/datasets/en_test.csv', '/datasets/es_test.csv', '/datasets/ar_test.csv']
-	test_labels_json_paths = ['./authors_labels/en_test_labels.json', './authors_labels/es_test_labels.json',\
-								'./authors_labels/ar_test_labels.json']
+	# test_data_csv_paths = ['/datasets/en_test.csv', '/datasets/es_test.csv', '/datasets/ar_test.csv']
+	# test_labels_json_paths = ['./authors_labels/en_test_labels.json', './authors_labels/es_test_labels.json',\
+	# 							'./authors_labels/ar_test_labels.json']
+	test_data_csv_paths = ['/notop/en_test.csv','/notop/es_test.csv']
+	test_labels_json_paths = ['./authors_labels/en_test_labels.json', './authors_labels/es_test_labels.json']
 	X_dataframes = [None for i in range(len(test_data_csv_paths))]
 	y_dataframes = [None for i in range(len(test_labels_json_paths))]
 	list_of_ids = [None for i in range(len(X_dataframes))]
@@ -75,10 +75,11 @@ def main():
 	for path_x, path_y in zip(test_data_csv_paths, test_labels_json_paths):
 		list_of_ids[i] = path_x.strip().split('/')[2][:2]
 		X = pd.read_csv(BASE_PATH_DATA + path_x, sep='\s*,\s*', header=0, encoding='ascii', engine='python')
-		X_dataframes[i], y_dataframes[i] =  create_avg_dataset(X, path_y)
+		y_dataframes[i] = X["class"] 
+		X_dataframes[i] = X.drop(["author_id", "class"], axis=1)
 		i += 1
 	print("{} seconds to read csv's and create all dataframes".format(time() - t_start))
-	test_all_combinations(X_dataframes, y_dataframes, list_of_ids, './models/trees/')
+	test_all_combinations(X_dataframes, y_dataframes, list_of_ids, './models/notop/')
 
 if __name__ == '__main__':
 	main()
